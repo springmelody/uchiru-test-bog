@@ -8,6 +8,3 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Rails from "@rails/ujs"
 
 Rails.start()
-
-// @ts-ignore
-const images = require.context('../images', true);
