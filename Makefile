@@ -7,6 +7,9 @@ start:
 console:
 	bin/rails console
 
+deploy:
+	git push heroku main
+
 test:
 	NODE_ENV=test bin/rails test
 
